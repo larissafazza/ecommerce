@@ -1,0 +1,65 @@
+body{
+    background-color: #f1f1f1;
+}
+.login-box {
+    width: 360px;
+    margin: auto;
+    background-color:white;
+    border-radius: 5%;
+    border: 2px solid #483D8B;
+    margin-top: 6%;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+    text-align:center;
+    box-shadow: 14px 14px 20px rgba(0, 0, 0, 0.2);
+}
+.modal-header h1{
+
+    margin-top: 30px;
+    color:#483D8B;
+    width:100%;
+    text-align: center;
+    margin-bottom:10px;
+}
+.option-buttons{
+    width:100%;
+}
+.text-input{
+    width:80%;
+    margin-left: 35px;
+}
+.label-input{
+    margin-top: 20px;
+    display: block;
+    text-align:left;
+    margin-left: 40px;
+}
+.login-button{
+    width: 278px;
+    border-radius: 8px;
+    color:white;
+    border: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.login-button:hover{
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.cliente{
+    margin-top:10px;
+    background-color: #a765e6;
+}
+.vendedor{
+    margin-top: 20px;
+    background-color: #483D8B;
+}
+.cadastro{
+    padding-top: 18px;
+    color: gray;
+    text-decoration: none;
+}
+.cadastro:hover{
+    color: #a765e6;
+    text-decoration: underline;
+}
