@@ -13,6 +13,7 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
 
         <link rel="stylesheet" href="styles/layout.css">
+        <link rel="stylesheet" href="styles/app.css">
 
         <!-- Styles -->
         <style>
