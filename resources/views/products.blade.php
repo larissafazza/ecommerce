@@ -10,7 +10,6 @@
     </div>
     <div id="home-produtos">
         <?php foreach ($products as $product) : ?>
-            
             <div class="box-product">
                 <div class="product-image-container">
                     <img class="product-image custom-image" src="{{$product->image1}}" alt="Imagem indisponível">
