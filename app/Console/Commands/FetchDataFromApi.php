@@ -33,13 +33,27 @@ class FetchDataFromApi extends Command
 
         
             foreach ($data['products'] as $product) {
-                $images = json_encode($product['images']);
+                // $images = json_encode($product['images']);
+                // $array = json_decode("[$images]", true);
+                
+                // $image1 = $array[0];
+                // // $image2 = $array[1];
+                // // $image3 = $array[2];
+
+                $images = $product['images'];
+    
+                $image1 = isset($images[0]) ? $images[0] : null;
+                $image2 = isset($images[1]) ? $images[1] : null;
+                $image3 = isset($images[2]) ? $images[2] : null;
+
                 Product::create([
                     'title' => $product['title'],
                     'price' => $product['price'],
                     'description' => $product['description'],
                     'category' => $product['category'],
-                    'images' => $images,
+                    'image1' => $image1,
+                    'image2' => $image2,
+                    'image3' => $image3,
                     'seller_id' => 1
                 ]);
             }
