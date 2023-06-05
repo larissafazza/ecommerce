@@ -2,7 +2,7 @@
 <h3 align="left">
 O ecommerce é um prototipo de um e-commerce para avaliação de conhecimento de php, laravel, html, css e javascript. 
 
-### Ferramentas utilizadas e guia de instalação: 
+##### Ferramentas utilizadas e guia de instalação: 
 * Laravel 8;
 * JSON PHP Extension + Banco de dados (MySQL, SQLite) + Servidor web (Apache) - recomendado: download do ambiente de desenvolvimento php Xampp.
 * Configuração correta das variáveis de ambiente (mysql e php).
