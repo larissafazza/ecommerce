@@ -5,7 +5,7 @@ Para rodar o programa, precisa das seguintes ferramentas:
 Ferramenta 1: Laravel 8;
 Guia de instalaçao
 Pré-requisitos
-JSON PHP Extension + Banco de dados (MySQL, SQLite) + Servidor web (Apache) - recomendado: download do ambiente de desenvolvimento php Xampp
+JSON PHP Extension + Banco de dados (MySQL, SQLite) + Servidor web (Apache) - recomendado: download do ambiente de desenvolvimento php Xampp.
 Configuração correta das variáveis de ambiente (mysql e php).
 Composer
 
