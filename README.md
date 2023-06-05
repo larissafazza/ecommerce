@@ -2,13 +2,6 @@
  <h3 align="center">
 O ecommerce é um prototipo de um e-commerce para avaliação de conhecimento de php, laravel, html, css e javascript. 
 
-
- 
-## Documentação 
-* Ferramenta 1: Laravel 6.x+ / https://laravel.com/docs/6.x
-* Ferramenta 2: AdminLTE / https://adminlte.io/themes/AdminLTE/pages/UI/general.html
-* Ferramenta 3: mxGraph / https://jgraph.github.io/mxgraph/ 
-
 ### Ferramentas utilizadas e guia de instalação: 
 * Laravel 8;
 * JSON PHP Extension + Banco de dados (MySQL, SQLite) + Servidor web (Apache) - recomendado: download do ambiente de desenvolvimento php Xampp.
