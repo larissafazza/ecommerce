@@ -11,11 +11,11 @@
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-
+                
+        <!-- Styles -->
         <link rel="stylesheet" href="styles/layout.css">
         <link rel="stylesheet" href="styles/app.css">
-
-        <!-- Styles -->
+        <link rel="stylesheet" href="styles/home.css">
         <style>
             /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
         </style>
@@ -24,13 +24,12 @@
         <nav class="navbar">
             <div class="navbar-logo"><img class="nav-image" src="{{ asset('images/logo.png') }}" onmouseover="hover(this);" onmouseout="hover_off(this)" alt="Logo 5Labs"></div>
             <ul class="navbar-menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
+                <li><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="{{ route('login') }}">Login</a></li>
                 <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Cadastrar
           </a>
           <ul class="dropdown-menu">
             <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
@@ -41,11 +40,7 @@
         </li>
             </ul>
         </nav>
-        
         @yield('content')
-        <footer>
-            <p>&copy; 2023 - Developed by <a href="https://br.linkedin.com/in/larissa-rezende-fazza-8a9b28204"> Larissa Fazza</a></p>
-        </footer>
     </body>
 </html>
 
