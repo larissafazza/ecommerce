@@ -22,4 +22,5 @@ Por fim, para executar o projeto, use o comando: php artisan serve e acesse a ur
 
 Desenvolvimento
 Este e-commerce foi desenvolvido usando como base o framework Laravel. O frontend foi feito em html, css e javascript, e com o uso do Bootstrap como base e auxilio para a estilização do projeto.
+
 Desenvolvido por Larissa Rezende Fazza
