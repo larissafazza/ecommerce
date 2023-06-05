@@ -1,6 +1,6 @@
 <p align="center"></p>
- <h3 align="center">
-O ecommerce é um prototipo de um e-commerce para avaliação de conhecimento de php, laravel, html, css e javascript. 
+<h3 align="center">
+### O ecommerce é um prototipo de um e-commerce para avaliação de conhecimento de php, laravel, html, css e javascript. 
 
 ### Ferramentas utilizadas e guia de instalação: 
 * Laravel 8;
