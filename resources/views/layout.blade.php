@@ -25,12 +25,9 @@
             <div class="navbar-logo"><img class="nav-image" src="{{ asset('images/logo.png') }}" onmouseover="hover(this);" onmouseout="hover_off(this)" alt="Logo 5Labs"></div>
             <ul class="navbar-menu">
                 <li><a href="{{ route('home') }}">Home</a></li>
-                <li><a href="#">Contact</a></li>
                 <li><a href="{{ route('login') }}">Login</a></li>
+                <li><a href="#">Cadastrar</a></li>
                 <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Cadastrar
-          </a>
           <ul class="dropdown-menu">
             <li class="nav-item"><a class="dropdown-item" href="#">Action</a></li>
             <li class="nav-item"><a class="dropdown-item" href="#">Another action</a></li>

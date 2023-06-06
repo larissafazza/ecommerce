@@ -1,6 +1,8 @@
 <?php
 
 use App\Models\Product;
+use App\Models\Client;
+use App\Models\Seller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -31,7 +33,10 @@ Route::get('/{product}', function ($id) {
 })->name('product');
 
 Route::get('/login', function () {
-    return view('login');
+    return view('login',[
+        'sellers' => Seller::all(),
+        'clients' => Client::all(),
+    ]);
 })->name('login');
 
 Route::get('/register', function () {
